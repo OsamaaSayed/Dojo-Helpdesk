@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server ./_data/db.json --watch --port 4000"
   },
   "dependencies": {
     "@types/node": "20.9.0",
@@ -15,6 +16,7 @@
     "autoprefixer": "10.4.16",
     "eslint": "8.53.0",
     "eslint-config-next": "14.0.1",
+    "jsonserver": "^0.1.6",
     "next": "14.0.1",
     "postcss": "8.4.31",
     "react": "18.2.0",
