@@ -1,6 +1,6 @@
 import { Rubik } from 'next/font/google';
 
-import Navbar from './components/Navbar';
+import Navbar from '../components/Navbar';
 
 import type { Metadata } from 'next';
 import './globals.css';

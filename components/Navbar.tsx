@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Logo from '../../public/dojo-logo.png';
+import Logo from '../public/dojo-logo.png';
 
 const Navbar = () => {
   return (
