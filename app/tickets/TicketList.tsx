@@ -9,6 +9,9 @@ type Ticket = {
 };
 
 const getTickets = async () => {
+  //! imitate delay as we calling a real api
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+
   const res = await fetch('http://localhost:4000/tickets', {
     cache: 'no-cache', //~ SSR
   });
